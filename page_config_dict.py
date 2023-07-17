@@ -59,9 +59,9 @@ def encabezado():
         st.image("img/ico_lin.png",width= 33)
         st.image("img/dir.png",width= 33)
     with col22:
-        st.markdown(f'<p style="font-size: 20px; color: #000000;font-weight: bold;">+34 671 523462</p>', unsafe_allow_html=True)
-        st.markdown(f'<a href="{enlace_whatsapp}" target="_blank" style="text-decoration: none;font-weight: bold;font-size: 20px; color: #000000;">671523462</a>', unsafe_allow_html=True)
-        st.markdown(f'<a href="{enlace_correo}" target="_blank" style="text-decoration: none;font-weight: bold;font-size: 20px; color: #000000;">rafaelb1106@gmail.com</a>', unsafe_allow_html=True)
+        st.markdown(f'<p style="font-size: 20px; color: #000000;">+34 671 523462</p>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{enlace_whatsapp}" target="_blank" style="text-decoration: none;font-size: 20px; color: #000000;">671523462</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{enlace_correo}" target="_blank" style="text-decoration: none;font-size: 20px; color: #000000;">rafaelb1106@gmail.com</a>', unsafe_allow_html=True)
         st.markdown(f'<a href="{enlace_lin}" target="_blank" style="text-decoration: none;font-size: 20px; color: #000000;">Rafael Ballesteros</a>', unsafe_allow_html=True)
         st.markdown(f'<p style="font-size: 18px; color: #000000;"> 28014, Madrid, España</p>', unsafe_allow_html=True)
 
