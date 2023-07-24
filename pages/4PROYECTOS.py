@@ -10,6 +10,9 @@ st.set_page_config(**PAGE_CONFIG)
 encabezado()
 
 def main():
+    texto = "PROYECTOS"   
+    st.markdown(f'<p style="font-size: 45px; color: maroon;font-weight: bold;">{texto}</p>', unsafe_allow_html=True) 
+    
     texto = "1.	Currículum Vitae Interactivo con Streamlit y Python."   
     st.markdown(f'<p style="font-size: 20px; color: maroon;font-weight: bold;">{texto}</p>', unsafe_allow_html=True)     
     st.markdown(f'<p style="font-size: 17px; display: inline;text-align: justify;">La pagina actual fue una idea para plasmar mi Currículum de una manera interactiva y exponer algo de los conocimientos que he adquirido a lo largo de mi trayectoria profesional y educativa. Esta pagina es hecha con las tecnologías de Streamlit y Python. Donde Streamlit es una herramienta de código abierto que nos permite compartir aplicaciones web de datos personalizadas, la cual es elegante, intuitiva y funciona perfectamente con Python que por su parte es un lenguaje de programación extremadamente versátil y amigable para los usuarios con una sintaxis simple y legible lo cual lo ha convertido en un lenguaje muy popular y nos permite hacer múltiples cosas como script para analizar datos, construir sitios web, automatizar tareas y mucho más. </p>', unsafe_allow_html=True)
