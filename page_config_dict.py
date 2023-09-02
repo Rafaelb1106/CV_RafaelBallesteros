@@ -92,16 +92,18 @@ def encabezado():
 
     # #################    
         
-    col1, col2 = st.columns([ 2, 12])
+    #col1, col2 = st.columns([ 2, 12])
     # Contenido de la primera columna
-    with col1:
-        st.image(imagen_circular, use_column_width= True)
+    #with col1:
+    #    st.image(imagen_circular, use_column_width= True)
     # Contenido de la segunda columna
-    with col2:
-        texto = "Rafael Ballesteros Monsalve"   
-        st.markdown(f'<p style="font-size: 70px; color: maroon;text-align: right;font-weight: bold;">{texto}</p>', unsafe_allow_html=True)
-        texto = "Ingeniero de Sistemas"   
-        st.markdown(f'<p style="font-size: 60px; color: black;text-align: right;font-weight: bold;">{texto}</p>', unsafe_allow_html=True)
+    #with col2:
+    #    texto = "Rafael Ballesteros Monsalve"   
+    #    st.markdown(f'<p style="font-size: 70px; color: maroon;text-align: right;font-weight: bold;">{texto}</p>', unsafe_allow_html=True)
+    #    texto = "Ingeniero de Sistemas"   
+    #    st.markdown(f'<p style="font-size: 60px; color: black;text-align: right;font-weight: bold;">{texto}</p>', unsafe_allow_html=True)
+    ##########
+    st.image("img/baner1.jpg",use_column_width= True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
     
