@@ -33,5 +33,11 @@ def main():
     st.markdown(f'<p style="font-size: 17px; display: inline;text-align: justify;"><a href="https://projectpowerbi-encuesta-infidelidad.streamlit.app/" target="_blank" style="text-decoration: none;font-size: 20px; color: #000000;">Para más detalles dar clic aquí.</a></p>', unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
+    texto = "4.	Portafolio de Soluciones Tecnológicas Desarrolladas en Delphi y Firebird."   
+    st.markdown(f'<p style="font-size: 20px; color: maroon;font-weight: bold;">{texto}</p>', unsafe_allow_html=True) 
+    st.markdown(f'<p style="font-size: 17px; display: inline;text-align: justify;">Me complace introducir dos soluciones especializadas diseñadas en Delphi para trabajar con bases de datos en Firebird. La primera herramienta facilita la transferencia precisa de datos entre bases de datos con estructuras idénticas. La segunda, por su parte, proporciona un análisis detallado de procedimientos almacenados y disparadores específicos pertenecientes a una base de datos de la empresa X en Firebird. </p>', unsafe_allow_html=True)
+    st.markdown(f'<p style="font-size: 17px; display: inline;text-align: justify;"><a href="https://project-delphi-rafael.streamlit.app/" target="_blank" style="text-decoration: none;font-size: 20px; color: #000000;">Para más detalles dar clic aquí.</a></p>', unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+
 if __name__ == "__main__":
     main()
